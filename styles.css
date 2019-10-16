@@ -1,0 +1,214 @@
+/*---------------ESTILOS BASICOS--------------------*/
+	body{
+		width:1200px;
+		margin: 0 auto;
+		font-family: verdana, sans-serif, helvetica, arial;
+		background-color: #E3F2FD;
+	}
+	h2{
+			margin: 20px;
+			color: #0D47A1;
+			font-family: monospace;
+		}
+/*--------------HEADER-------------------*/
+	
+
+/*--------------MENU DE NAVEGACION-------------------*/
+
+#navegador{
+	box-sizing: border-box;
+	margin: 10px;
+	padding: 0;
+}
+.lista li{
+	list-style-type: none;
+	position: relative;
+	width: 120px
+
+}
+.lista li a{
+	text-decoration: none;
+	display:inline-block;
+	padding:5px 10px;
+    width:120px;
+    height:30px;
+    border:1px solid #2962FF;
+    color:#fff;
+    background-color:#2962FF;
+    border-radius:50%;
+}
+.lista li a:hover{
+    color:#2962FF;
+    background-color:#fff;
+                        
+}
+nav li ul{
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 120px;
+}
+ nav li:hover ul{
+ 	display:block;
+ }
+
+/*------------------LAYOUT--------------------------*/
+	#header{
+		background-color: #2962FF;
+		padding: 2px;
+		margin: 0;
+		color: white;
+		font-family: verdana;
+		font-size: 25px;
+		text-align: center;
+		border-radius: 25px
+	}
+
+	#izquierda{
+		width: 200px;
+		height: 450px;
+		background-color: #90A4AE;
+		margin: 15px 0 0 0;
+		padding: 10px;
+		float: left;
+		border-radius: 25px
+		
+	}
+
+	#centro{
+		width: 800px;
+		height: 500px;
+		padding: 0 10px 10px 10px;
+		float: left;
+		overflow: auto;
+		
+	}
+	#derecha{
+		width: 140px;
+		height: 325px;
+		background-color: #CFD8DC;
+		margin: 15px 0 0 0;
+		padding: 10px;
+		float: right;
+		border-radius: 25px
+	}
+
+/*------------ESTILOS COMUNES EN LOS POST-------*/
+		
+		.titulo-post h2{
+			background-color: #90A4AE;
+			padding: 5px 20px;
+			margin: 0;
+			font-family: verdana;
+			font-size: 26px;
+			color: #2962FF;
+		}
+		.titulo-post span{
+			font-family: cursive;
+			background-color: #BBDEFB;
+			padding: 10px;
+			margin: 0px;
+			display: table;
+		}
+		.footer-post{
+			background-color: #546E7A;
+			padding: 5px 10px;
+			margin-bottom: 10px;
+		}
+		.footer-post ul li a{
+			color: #0D47A1;
+
+		}
+		.footer-post h3{
+			color:#fff;
+		}
+		.article{
+			width: 780px;
+			background-color: #fff;
+			margin: 0 10px 10px 10px; 
+		}
+		p{
+			margin: 15px;
+			color: #263238;
+		}
+		h3{
+			margin: 15px;
+			text-decoration: underline;
+			color: #536DFE;
+		}
+/*------------LOA ESTILOS INDIVIDUALES DE CADA POST DE FORMA INLINE------------*/
+
+/*-----------------SIDEBAR---------------------*/
+	#derecha ul{
+		padding: 0;
+		margin-left: 20px;
+	}
+	#derecha ul li{
+		padding: 
+		font-size: 12px;
+		color: #01579B;
+		overflow: auto;
+	}
+	#derecha ul li a:hover{
+		font-family: fantasy;
+		padding: 5px 10px;
+		background-color: #2962FF;
+		color: #fff;
+
+	}
+	#derecha ul li a{
+		text-decoration: none;
+		color: #263238;
+		
+	}
+
+/*--------------REDES SOCIALES------------------*/
+	#redes{
+		width: 140px;
+		height: 90px;
+		background-color: #CFD8DC; 
+		padding: 10px;
+		margin: 10px 0 0 0;
+		float: right;
+		border-radius: 25px
+	}
+
+	#redes h2{
+		font-size: 12px;
+		margin: 10px 5px;
+	}
+/*-------------FOOTER PRINCIPAL-----------------*/
+	#footer{
+		height: 60px;
+	 	clear: both;
+	 	text-align: center;
+	 	background-color: #0D47A1;
+	 	border-radius: 25px
+	 }
+	 #footer p{
+	 	padding: 20px 0 0 0;
+	 	color: #fff;
+	 }
+ 
+	 #footer a{
+	 	text-decoration:none;
+	 	color: #fff;
+	 	padding: 5px 10px;
+	 }
+	 #footer a:hover{
+	 	background-color: #90A4AE;
+	 	color: #2962FF;
+
+	 }
+
+
+
+
+
+
+
+ 
+
+
+
+
